@@ -7,6 +7,8 @@ import net.apispark.webapi.db.ContactPersistence;
 import net.apispark.webapi.representation.Contact;
 
 public class ContactPersistenceTest {
+	
+	//Test 1 for new contacts
 	@Test
 	public void addContactTest() throws Exception {
 		ContactPersistence contactPersistence = new ContactPersistence();
@@ -16,6 +18,7 @@ public class ContactPersistenceTest {
 		Assert.assertEquals(createdContact, contact);
 	}
 	
+	//Test 2 for new contacts
 	@Test
 	public void requestNewContactTest() throws Exception {
 		ContactPersistence contactPersistence = new ContactPersistence();
