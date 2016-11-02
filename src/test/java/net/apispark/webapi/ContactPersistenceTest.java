@@ -27,5 +27,11 @@ public class ContactPersistenceTest {
 		Assert.assertEquals(contactPersistence.getContact(createdContact.getId()), createdContact);
 	}
 	
+	//Test faux pour tester que Github empeche le force push en cas de fail d'un check Travis
+	@Test
+	public void wrongTest() throws Exception {
+		Assert.assertEquals(true, false);
+	}
+	
 	
 }
