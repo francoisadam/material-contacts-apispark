@@ -1,5 +1,6 @@
 language: java
-
+script:
+- mvn package
 deploy:
   provider: heroku
   app: github-tuto # optional if it's the same as your repo name
