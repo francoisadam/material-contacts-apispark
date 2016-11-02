@@ -1,4 +1,9 @@
 language: java
 
+deploy:
+  provider: heroku
+  app: github-tuto # optional if it's the same as your repo name
+  api_key: "ad390f2f-4292-44b0-8065-86e93d9f2c48"
+
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
